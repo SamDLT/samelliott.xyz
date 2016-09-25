@@ -1,0 +1,27 @@
+{
+  "faNames": [
+    "linkedin-square",
+    "github",
+    "angellist",
+    "twitter"
+  ],
+  "containerStyles": {
+    "textAlign": "center"
+  },
+  "pStyles": {
+    "color": "#888",
+    "fontSize": "1.5em",
+    "lineHeight": "1.75em"
+  },
+  "headerStyles": {
+    "fontSize": "1.25em",
+    "letterSpacing": "-0.025em",
+    "color": "#3e3e3e"
+  },
+  "h1Styles": {
+    "fontWeight": "300"
+  },
+  "strongStyles": {
+    "fontWeight": "700"
+  }
+}
