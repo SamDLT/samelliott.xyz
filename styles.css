@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-size: 16;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+a { color: inherit; }
+a:hover {
+  color: #F090C0;
+}
+
+.colors-container {
+  height: 5px;
+  font-size: 0;
+}
+
+.color-element {
+  width: 20%;
+  display: inline-block;
+  height: inherit;
+}
+
+.red {
+  background-color: #ED145A;
+}
+
+.pink {
+  background-color: #F090C0;
+}
+
+.beach-blue {
+  background-color: #22ABC7;
+}
+
+.tropical-sea {
+  background-color: #18D8F0;
+}
+
+.terror-blue {
+  background-color: #18C0F0;
+}
+
+.👋 {
+  border-radius: 50%;
+  width: 15em;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-top: 3em;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.description {
+  margin-top: 0.5em;
+  font-size: 2em;
+}
+
+.💃 {
+  color: #666;
+}
+
+.seperate-content {
+  margin-top: 0.3em;
+}
+
+.icon-container {
+  margin-top: 2em;
+}
