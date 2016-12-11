@@ -7,7 +7,14 @@ body {
   background-color: #fff;
 }
 
-a { color: inherit; }
+.icon-container > a {
+  color: #18D8F0;
+}
+
+a:visited {
+  color:#F090C0;
+}
+
 a:hover {
   color: #F090C0;
 }
@@ -18,7 +25,7 @@ a:hover {
 }
 
 .color-element {
-  width: 20%;
+  width: calc(100% / 3);
   display: inline-block;
   height: inherit;
 }
@@ -31,16 +38,8 @@ a:hover {
   background-color: #F090C0;
 }
 
-.beach-blue {
-  background-color: #22ABC7;
-}
-
-.tropical-sea {
+.blue {
   background-color: #18D8F0;
-}
-
-.terror-blue {
-  background-color: #18C0F0;
 }
 
 .👋 {
