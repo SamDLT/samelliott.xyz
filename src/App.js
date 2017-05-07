@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import { Bar } from "./Bar.js";
 import imgOfMe from "./me.jpeg";
 
 const Me = styled.img`
@@ -35,6 +34,12 @@ const Link = styled.a`
     color: white;
     background-color: #94D0FF;
   }
+`;
+
+const Bar = styled.div`
+  height: 5px;
+  font-size: 0;
+  background: linear-gradient(to right, #FF6AD5, #AD8CFF, #94D0FF);
 `;
 
 export const App = () => (
