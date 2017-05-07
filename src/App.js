@@ -36,10 +36,12 @@ const Link = styled.a`
   }
 `;
 
+const colors = ["#FF6AD5", "#AD8CFF", "#94D0FF"];
+
 const Bar = styled.div`
   height: 5px;
   font-size: 0;
-  background: linear-gradient(to right, #FF6AD5, #AD8CFF, #94D0FF);
+  background: linear-gradient(to right, ${colors.join(",")});
 `;
 
 export const App = () => (
